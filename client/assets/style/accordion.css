@@ -1,0 +1,31 @@
+.middle {
+  padding: 0 10%;
+}
+.menu{
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.someitem {
+  border-top: 1px solid #efeef9;
+  overflow: hidden;
+}
+.tempbtn {
+  display: block;
+  padding: 16px 20px;
+  background: #5252da;
+  color: white;
+  position: relative;
+}
+.smenu{
+  /* background: #333; */
+  overflow: hidden;
+  transition: max-height 0.3s;
+  max-height: 0;
+}
+.accordion-open:target .smenu {
+  max-height: 10em;
+}
+.accordion-close:target .smenu {
+  max-height: 0;
+}

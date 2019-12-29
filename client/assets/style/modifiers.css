@@ -1,0 +1,22 @@
+.block { display: block; }
+.inline { display: inline; }
+.inline-block { display: inline-block; }
+.flex { display: flex; }
+.flex-start { justify-content: flex-start; }
+.align-center { align-items: center; }
+.text-align-center { text-align: center; }
+.regular { font-size: 16px !important; }
+.margin--auto { margin: auto; }
+.margin-left--auto { margin-left: auto; }
+
+.slight-right-margin { margin-right: .5em; }
+.slight-left-margin { margin-left: .5em; }
+.slight-top-margin { margin-top: .5em; }
+
+.normal-top-margin { margin-top: 1.5em; }
+
+.variable-top-margin-normal { margin-top: 15%!important; }
+
+.center-padding { padding: 0 10%; }
+
+.slight-right-padding { padding-right: .5em; }

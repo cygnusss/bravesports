@@ -1,0 +1,21 @@
+.account-manager--nav {
+  width: 80%;
+}
+
+.account-manager--ul .account-manager--li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.account-manager--ul .account-manager--li {
+  border-bottom: 0.1em solid rgba(82, 82, 218, 1);
+}
+
+.account-manager--ul .account-manager--li:hover {
+  background: #FAFBFC;
+}
+
+.account-manager--ul .account-manager--li .account-manager--a {
+  text-decoration: none;
+}

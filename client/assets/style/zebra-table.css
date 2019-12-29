@@ -1,0 +1,42 @@
+.zebra-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-weight: 200;
+  line-height: 1em;
+  font-size: 0.9em;
+  min-width: 480px;
+}
+
+.zebra-table th,
+.zebra-table td {
+  padding: 12px 15px;
+}
+
+/* Table column names row is #5252da by default */
+.zebra-table thead tr {
+  color: #ffffff;
+  background-color: #5252da;
+}
+.zebra-table thead.red tr {
+  background-color: #ff6b6b!important;
+}
+.zebra-table thead.yellow tr {
+  background-color: #feca57!important;
+}
+.zebra-table thead.grey tr {
+  background-color: #cdcfd5!important;
+}
+
+/* Table rows are #efeef9 by default */
+.zebra-table tbody tr:nth-child(even) {
+  background-color: #efeef9;
+}
+.zebra-table tbody.soft-red tr:nth-child(even) {
+  background-color: #fce3e3!important;
+}
+.zebra-table tbody.soft-yellow tr:nth-child(even){
+  background-color: #fcf0df!important;
+}
+.zebra-table tbody.soft-grey tr:nth-child(even){
+  background-color: #eeeff1!important;
+}
